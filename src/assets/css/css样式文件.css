@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "微软雅黑";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+u {
+    text-decoration: none;
+}
+
+b,
+strong {
+    font-weight: normal;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    /* 解决有些浏览器中a+img会产生边框问题 */
+    display: block;
+    /* 解决图片有空隙 用于单张图 */
+    /* ②添加浮动;用于多张图 */
+    /* ③vertical-align: xxx */
+    /* ④给父元素添加fontsize:o; */
+}
+
+input {
+    outline: none;
+    border: 0;
+}
